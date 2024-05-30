@@ -1,0 +1,26 @@
+{
+  "name": "unit-trust",
+  "version": "1.0.0",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npx truffle compile",
+    "test": "concurrently --kill-others \"npx ganache\" \"npx truffle test\""
+  },
+  "keywords": [],
+  "author": "Tom Lalobo",
+  "license": "ISC",
+  "description": "An ERC1155 Solidity Smart Contract to model a Unit Trust structure for Assets on chain.",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.4.1",
+    "concurrently": "^8.2.2",
+    "ganache": "^7.9.2",
+    "truffle": "^5.11.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6"
+  }
+}
