@@ -1,10 +1,10 @@
 # Unit Trust Smart Contract
 
-An [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) Solidity Smart Contract to model a Unit Trust structure for physical Assets on chain.
+An [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) Solidity Smart Contract to model a Unit Trust structure for managing assets on chain.
 
 ## Maintainers
 
-[Tom Lalobo](mailto:tjlalobo@gmail.com)
+[Tom Lalobo](https://x.com/elPr1ncipe)
 
 ## Powered by 🚀
 
@@ -25,7 +25,7 @@ $ npm build
 
 ## Running tests
 
-Run the below command in at terminal to run Smart Contract unit tests.
+Run the below command in a terminal to run Smart Contract unit tests.
 
 ```bash
 $ npm test
