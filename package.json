@@ -15,9 +15,12 @@
   "description": "An ERC1155 Solidity Smart Contract to model a Unit Trust structure for Assets on chain.",
   "devDependencies": {
     "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.15",
     "chai": "^4.4.1",
     "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
     "ganache": "^7.9.2",
+    "seed-phrase-generator": "^1.2.7",
     "truffle": "^5.11.5"
   },
   "dependencies": {
