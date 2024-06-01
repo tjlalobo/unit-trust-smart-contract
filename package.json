@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "npx truffle compile",
-    "test": "concurrently --kill-others \"npx ganache\" \"npx truffle test\""
+    "test": "npx truffle test"
   },
   "keywords": [],
   "author": "Tom Lalobo",
